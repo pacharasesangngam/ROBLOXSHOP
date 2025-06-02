@@ -1,0 +1,279 @@
+/*import ฟ้อนท์ prompt มาจาก google front*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'prompt';
+}
+
+.App-logo{
+  display: block;
+}
+
+.App-logo:hover {
+  display: inline-block;
+  transform: scale(2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  display: flex;
+  margin-right: auto;
+  margin-left: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  flex: 1;
+}
+
+ul.menu {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+.right-buttons {
+  display: flex;    
+  margin-left: auto;     
+  margin-right: 25px;
+}
+
+.left-buttons{
+  display: flex;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+  cursor: pointer;
+}
+
+li {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+a.home:hover,a.store:hover,a.contact:hover,a.money:hover{
+  color: #ba0000;
+  transform: scale(1.10);
+  transition: transform 0.3s ease;
+}
+
+a.home,a.store,a.contact,a.money,a.login{
+  color: #282c34;
+  text-decoration: none;
+  font-family: "prompt";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button.login{
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffe600;
+  font-family: 'prompt';
+  font-size: 15px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.username-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ffe600;
+  padding: 0px 13px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.username-dropdown:hover {
+  color: #000000;
+  transform: scale(1.04);
+  transition: transform 0.3s ease;
+  /* background-color: #e4d015; */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #1c1f25;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  min-width: 150px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+li.logout {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 0px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: normal;
+}
+
+.dropdown-menu li.curr-money:hover{
+  background-color: #1c1f25;
+  cursor:context-menu;
+}
+
+.dropdown-menu li:hover {
+  background-color: #444;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+button.login:hover{
+  background-color: #ead308;
+  transform: scale(0.98);
+}
+
+button.cart{
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+button.cart a{
+  color: #ba0000;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'prompt';  
+}
+
+button.cart:hover{
+  transform: scale(1.10);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #282c34;
+  padding: 15px 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-image {
+  max-width: 150px;
+  margin: 0;
+}
+
+.right-footer h3 {
+  color: #282c34;
+  font-size: 18px;
+  margin: 0;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+div.icon-contact{
+  display: flex;
+  padding: 5px;
+}
+
+div.icon-contact li{
+  list-style-type: none;
+  font-weight: none;
+  color: #2b2b2b;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

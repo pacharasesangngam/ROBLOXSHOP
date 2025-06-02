@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "name": "ไอดีเห็ด 100K",
+    "image": "/product100K.png",
+    "shortDescription": "เห็ดวิเศษกินแล้วรวย",
+    "longDescription": "🎁ระบบ ID-Pass\n(✅การันตี) 🍄เห็ด 100K\n📦วิธีรับสินค้า : สามารถรับไอดีพร้อมรหัสได้ในหน้าประวัติการซื้อ\n📝การรับประกัน : ทุกไอดีมีประกัน ระยะเวลา 2 วัน",
+    "price": 200,
+    "recommend": "no",
+    "idPasses": [
+      {
+        "usergame": "User2",
+        "passwordgame": "Pass2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User3",
+        "passwordgame": "Pass3",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User4",
+        "passwordgame": "Pass4",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User5",
+        "passwordgame": "Pass5",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User6",
+        "passwordgame": "Pass6",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User7",
+        "passwordgame": "Pass7",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User8",
+        "passwordgame": "Pass8",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User9",
+        "passwordgame": "Pass9",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      },
+      {
+        "usergame": "User10",
+        "passwordgame": "Pass10",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "100K"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ไอดีเห็ด 200K",
+    "image": "/product200K.png",
+    "shortDescription": "เห็ดวิเศษกินแล้วรวย",
+    "longDescription": "🎁ระบบ ID-Pass\n(✅การันตี) 🍄เห็ด 200K\n📦วิธีรับสินค้า : สามารถรับไอดีพร้อมรหัสได้ในหน้าประวัติการซื้อ\n📝การรับประกัน : ทุกไอดีมีประกัน ระยะเวลา 2 วัน",
+    "price": 400,
+    "recommend": "no",
+    "idPasses": [
+      {
+        "usergame": "compotza1",
+        "passwordgame": "comp1",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza2",
+        "passwordgame": "comp2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza3",
+        "passwordgame": "comp2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza4",
+        "passwordgame": "comp4",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza5",
+        "passwordgame": "comp5",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza6",
+        "passwordgame": "comp6",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza7",
+        "passwordgame": "comp7",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza8",
+        "passwordgame": "comp8",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza9",
+        "passwordgame": "comp9",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      },
+      {
+        "usergame": "compotza10",
+        "passwordgame": "comp10",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "200K"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ไอดีเห็ด 300K",
+    "image": "/product300K.png",
+    "shortDescription": "เห็ดวิเศษกินแล้วรวย",
+    "longDescription": "🎁ระบบ ID-Pass\n(✅การันตี) 🍄เห็ด 300K\n📦วิธีรับสินค้า : สามารถรับไอดีพร้อมรหัสได้ในหน้าประวัติการซื้อ\n📝การรับประกัน : ทุกไอดีมีประกัน ระยะเวลา 2 วัน",
+    "price": 600,
+    "recommend": "yes",
+    "idPasses": [
+      {
+        "usergame": "tepza2",
+        "passwordgame": "tep2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza3",
+        "passwordgame": "tep3",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza4",
+        "passwordgame": "tep4",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza5",
+        "passwordgame": "tep5",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza6",
+        "passwordgame": "tep6",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza7",
+        "passwordgame": "tep7",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza8",
+        "passwordgame": "tep8",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza9",
+        "passwordgame": "tep9",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "tepza10",
+        "passwordgame": "tep10",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ไอดีเห็ด 400K",
+    "image": "/product400K.png",
+    "shortDescription": "เห็ดวิเศษกินแล้วรวย",
+    "longDescription": "🎁ระบบ ID-Pass\n(✅การันตี) 🍄เห็ด 400K\n📦วิธีรับสินค้า : สามารถรับไอดีพร้อมรหัสได้ในหน้าประวัติการซื้อ\n📝การรับประกัน : ทุกไอดีมีประกัน ระยะเวลา 2 วัน",
+    "price": 800,
+    "recommend": "no",
+    "idPasses": [
+      {
+        "usergame": "meowmeow1",
+        "passwordgame": "meow1",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow2",
+        "passwordgame": "meow2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow3",
+        "passwordgame": "meow3",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow4",
+        "passwordgame": "meow4",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow5",
+        "passwordgame": "meow5",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow6",
+        "passwordgame": "meow6",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow7",
+        "passwordgame": "meow7",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow8",
+        "passwordgame": "meow8",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow9",
+        "passwordgame": "meow9",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "300K"
+      },
+      {
+        "usergame": "meowmeow10",
+        "passwordgame": "meow10",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "400K"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ไอดีเห็ด 500K",
+    "image": "/product500K.png",
+    "shortDescription": "เห็ดวิเศษกินแล้วรวย",
+    "longDescription": "🎁ระบบ ID-Pass\n(✅การันตี) 🍄เห็ด 500K\n📦วิธีรับสินค้า : สามารถรับไอดีพร้อมรหัสได้ในหน้าประวัติการซื้อ\n📝การรับประกัน : ทุกไอดีมีประกัน ระยะเวลา 2 วัน",
+    "price": 1000,
+    "recommend": "yes",
+    "idPasses": [
+      {
+        "usergame": "pepatkomna2",
+        "passwordgame": "pat2",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna3",
+        "passwordgame": "pat3",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna4",
+        "passwordgame": "pat4",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna5",
+        "passwordgame": "pat5",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna6",
+        "passwordgame": "pat6",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna7",
+        "passwordgame": "pat7",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna8",
+        "passwordgame": "pat8",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna9",
+        "passwordgame": "pat9",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      },
+      {
+        "usergame": "pepatkomna10",
+        "passwordgame": "pat10",
+        "validity": "2",
+        "guarantee": "2",
+        "details": "500K"
+      }
+    ]
+  }
+]

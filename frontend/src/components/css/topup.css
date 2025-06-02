@@ -1,0 +1,23 @@
+.ant-typography, .ant-input, .ant-btn {
+  font-family: 'Prompt' !important;
+}
+
+.topup-btn {
+  background-color: #282c34;
+  color: white;
+  font-size: 16px;
+}
+
+.topup-btn:hover:not([disabled]) {
+  background-color: #ffe600 !important;
+  color: #282c34 !important;
+  border: none !important;
+  transform: scale(1.04), transform 0.3s ease;
+}
+
+.topup-btn:disabled {
+  background-color: #d3d3d3;
+  color: #9e9e9e;
+  cursor: not-allowed;
+  transform: none;
+}

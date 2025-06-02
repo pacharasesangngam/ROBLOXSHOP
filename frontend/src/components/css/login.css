@@ -1,0 +1,134 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 32, 32, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    margin: 20px;
+    margin-left: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 550px;
+    max-width: 90%;
+    position: relative;
+    /* border: solid 3px black; */
+}
+
+.modal-body {
+    display: flex; 
+    align-items: center;
+}
+
+.modal-image {
+    width: 45%;
+    height: 45%; 
+    margin-right: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 7px;
+}
+
+.close-button:hover{
+    background-color: rgb(223, 223, 217);
+    transform: scale(0.98);
+    transition: transform 0.3s ease;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.login-button {
+    width: 90%;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    font-family: 'prompt';
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.login-button:hover {
+    background-color: #ffe600;
+    color: #282c34;
+    transform: scale(0.98);
+    transition: transform 0.3s ease;
+   
+}
+
+.register {
+    text-align: center;
+
+}
+
+button.register,button.tologin {
+    font-family: "prompt";
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.register:hover,button.tologin:hover {
+    text-decoration: underline;
+    color: rgb(0, 136, 255);
+}
+
+.errormessage{
+    display: flex;
+    align-items: center;
+    color: rgb(186, 5, 5);
+    background-color: rgb(255, 218, 218);
+    border: solid 1px rgb(186, 5, 5);
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
